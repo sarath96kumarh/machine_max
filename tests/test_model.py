@@ -1,6 +1,8 @@
 import numpy as np
-from truck_model.model import train_model
 from sklearn.ensemble import RandomForestClassifier
+
+from truck_model.model import train_model
+
 
 def test_train_model():
     X_train = np.random.rand(100, 3)

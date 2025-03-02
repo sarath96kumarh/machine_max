@@ -5,9 +5,7 @@ from .visualization import plot_data
 
 # Define what gets imported when using `from tipper_truck_model import *`
 __all__ = [
-    'simulate_data'
-    'train_model',
-    'evaluate_model',
-    'plot_data',
-    
+    "simulate_data" "train_model",
+    "evaluate_model",
+    "plot_data",
 ]

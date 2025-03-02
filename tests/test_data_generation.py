@@ -1,11 +1,14 @@
 import numpy as np
+
 from truck_model.data_generation import generate_data, generate_noise
+
 
 def test_generate_noise():
     signal = np.array([1, 2, 3])
     noise_level = 0.1
     noise = generate_noise(signal, noise_level)
     assert noise.shape == signal.shape
+
 
 def test_generate_data():
     t = np.arange(0, 100, 1)
